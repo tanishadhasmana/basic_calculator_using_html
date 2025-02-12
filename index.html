@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body bgcolor="yellow">
+     <fieldset>
+        <legend><mark>Calculator</mark></legend>
+    <h2>Addify</h2>
+    <form  oninput="result.value=parseInt(num1.value)+ parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="enter ur first no">
+        <br><br>
+        <input type="number" id="num2" placeholder="enter ur second no">
+        <br><br>=<br>
+        <output name="result" id="result" for="num1, num2"></output>
+    </form>
+        <hr>
+        <h2>Subbify</h2>
+        <form oninput="result.value=parseInt(num1.value)- parseInt(num2.value)">
+            <input type="number" id="num1" placeholder="enter ur first no">
+            <br><br>
+            <input type="number" id="num2" placeholder="enter ur second no">
+            <br><br>=<br>
+            <output name="result" id="result" for="num1, num2"></output>
+    </form>
+        <hr>
+        <h2>Multify</h2>
+        <form oninput="result.value=parseInt(num1.value)* parseInt(num2.value)">
+            <input type="number" id="num1" placeholder="enter ur first no">
+            <br><br>
+            <input type="number" id="num2" placeholder="enter ur second no">
+            <br><br>=<br>
+            <output name="result" id="result" for="num1, num2"></output>
+    </form>
+        <hr>
+        <h2>Dviify</h2>
+        <form oninput="result.value=parseInt(num1.value) /parseInt(num2.value)">
+            <input type="number" id="num1" placeholder="enter ur first no">
+            <br><br>
+            <input type="number" id="num2" placeholder="enter ur second no">
+            <br><br>=<br>
+            <output name="result" id="result" for="num1, num2"></output>
+    </form>
+        <hr>
+        <h2>Squify</h2>
+        <form oninput="result.value=parseInt(num1.value)**2">
+            <input type="number" id="num1" placeholder="enter ur no">
+            <br><br>=<br>
+            <output name="result" id="result" for="num1, num2"></output>
+    </form>
+</fieldset>
+</body>
+</html>
